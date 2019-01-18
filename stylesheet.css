@@ -26,7 +26,7 @@
 }
 
 .topnav a.icon {
-    background: #4CAF50;
+    background: rgba(0, 0, 0, 0.88);
     display: block;
     border-left: 1px white solid;
     position: absolute;
@@ -40,7 +40,7 @@
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
 }
 .news {
@@ -53,6 +53,66 @@
 
 }
 #h6{
-    margin-left: 195px;
+    margin-left: 175px;
 
+}
+
+.wrapper{
+    background-color: lightgrey;
+
+
+}
+.boxeen{
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #af0d05; /* red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {font-size: 9px;}
+.button2 {font-size: 9px;}
+.button3 {font-size: 9px;}
+.button4 {font-size: 9px;}
+.button5 {font-size: 9px;}
+
+
+.foot{
+
+}
+
+.boxtwee{
+    margin-top: 50px;
+
+
+}
+
+#zoek{
+    margin-top: -5px;
+    margin-left: 130px;
+
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+    font-size: 9px;
 }
